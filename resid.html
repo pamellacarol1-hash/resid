@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap" rel="stylesheet">
+	<style>
+		* { box-sizing: border-box; }
+		body {
+			margin: 0;
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			font-family: 'Chonburi', serif;
+			background: #fff;
+		}
+		.navMenu {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-between;
+			gap: 8px;
+			width: 100%;
+			padding: 6px;
+		}
+		.navMenu a {
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+			padding: 3px 5px;
+			border: 1px solid #ff87d5;
+			color: #ff87d5;
+			background: #fff;
+			font-size: 18px;
+			font-weight: 600;
+			text-decoration: none;
+			text-transform: uppercase;
+			white-space: nowrap;
+			transition: background-color .18s ease, border-color .18s ease, color .18s ease;
+		}
+		.navMenu a:hover, .navMenu a:focus-visible {
+			color: #e760b8;
+			background: #fff0f7;
+			border-color: #e760b8;
+		}
+		.navMenu a:focus-visible { outline: 2px solid #e760b8; outline-offset: 2px; }
+		.navMenu span { font-family: sans-serif; font-size: 22px; line-height: 1; }
+	</style>
+</head>
+<body>
+	<nav class="navMenu" aria-label="Navegação">
+		<a href="https://app.notion.com/p/med26/MedCof-40b6f65f7fbd808581c4cbc16a1da6e7?v=ba46f65f7fbd82f5bdb308d171703059&source=copy_link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="-15 -15 286 286" fill="currentColor" aria-hidden="true"><rect x="-15" y="-15" width="286" height="286" fill="#FF87D500" data-bg-rect="true"/><path d="M216,72V176H40V72A16,16,0,0,1,56,56H200A16,16,0,0,1,216,72Z" opacity="0.2" fill="#ff87d5"/><path d="M232,168h-8V72a24,24,0,0,0-24-24H56A24,24,0,0,0,32,72v96H24a8,8,0,0,0-8,8v16a24,24,0,0,0,24,24H216a24,24,0,0,0,24-24V176A8,8,0,0,0,232,168ZM48,72a8,8,0,0,1,8-8H200a8,8,0,0,1,8,8v96H48ZM224,192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8v-8H224ZM152,88a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16h32A8,8,0,0,1,152,88Z" fill="#ff87d5"/></svg> MEDCOF</a>
+		<a href="https://app.notion.com/p/med26/Cronograma-40b6f65f7fbd806eb420fc04e632607f?v=ba46f65f7fbd82f5bdb308d171703059&source=copy_link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="-15 -15 286 286" fill="currentColor" aria-hidden="true"><rect x="-15" y="-15" width="286" height="286" fill="#FF87D500" data-bg-rect="true"/><path d="M216,48V88H40V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z" opacity="0.2" fill="#ff87d5"/><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z" fill="#ff87d5"/></svg> CRONOGRAMA</a>
+		<a href="https://app.notion.com/p/med26/Etiquetas-40b6f65f7fbd80e0b507e7f6495cebc9?v=ba46f65f7fbd82f5bdb308d171703059&source=copy_link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="-15 -15 286 286" fill="currentColor" aria-hidden="true"><rect x="-15" y="-15" width="286" height="286" fill="#FF87D500" data-bg-rect="true"/><path d="M237.66,153,153,237.66a8,8,0,0,1-11.31,0L42.34,138.34A8,8,0,0,1,40,132.69V40h92.69a8,8,0,0,1,5.65,2.34l99.32,99.32A8,8,0,0,1,237.66,153Z" opacity="0.2" fill="#ff87d5"/><path d="M243.31,136,144,36.69A15.86,15.86,0,0,0,132.69,32H40a8,8,0,0,0-8,8v92.69A15.86,15.86,0,0,0,36.69,144L136,243.31a16,16,0,0,0,22.63,0l84.68-84.68a16,16,0,0,0,0-22.63Zm-96,96L48,132.69V48h84.69L232,147.31ZM96,84A12,12,0,1,1,84,72,12,12,0,0,1,96,84Z" fill="#ff87d5"/></svg> ETIQUETAS</a>
+		<a href="https://app.notion.com/p/med26/Provas-40b6f65f7fbd800c9b14f1b313c4f341?v=ba46f65f7fbd82f5bdb308d171703059&source=copy_link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="-15 -15 286 286" fill="currentColor" aria-hidden="true"><rect x="-15" y="-15" width="286" height="286" fill="#FF87D500" data-bg-rect="true"/><path d="M208,72V184a8,8,0,0,1-8,8H176V104L136,64H80V40a8,8,0,0,1,8-8h80Z" opacity="0.2" fill="#ff87d5"/><path d="M213.66,66.34l-40-40A8,8,0,0,0,168,24H88A16,16,0,0,0,72,40V56H56A16,16,0,0,0,40,72V216a16,16,0,0,0,16,16H168a16,16,0,0,0,16-16V200h16a16,16,0,0,0,16-16V72A8,8,0,0,0,213.66,66.34ZM168,216H56V72h76.69L168,107.31v84.53c0,.06,0,.11,0,.16s0,.1,0,.16V216Zm32-32H184V104a8,8,0,0,0-2.34-5.66l-40-40A8,8,0,0,0,136,56H88V40h76.69L200,75.31Zm-56-32a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h48A8,8,0,0,1,144,152Zm0,32a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h48A8,8,0,0,1,144,184Z" fill="#ff87d5"/></svg> PROVAS</a>
+		<a href="https://app.notion.com/p/med26/Simulados-40b6f65f7fbd80a482dee3ff61a778d5?v=ba46f65f7fbd82f5bdb308d171703059&source=copy_link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="-15 -15 286 286" fill="currentColor" aria-hidden="true"><rect x="-15" y="-15" width="286" height="286" fill="#FF87D500" data-bg-rect="true"/><path d="M208,48V216a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H96a39.83,39.83,0,0,0-8,24v8h80V64a39.83,39.83,0,0,0-8-24h40A8,8,0,0,1,208,48Z" opacity="0.2" fill="#ff87d5"/><path d="M200,32H163.74a47.92,47.92,0,0,0-71.48,0H56A16,16,0,0,0,40,48V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm-72,0a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm72,184H56V48H82.75A47.93,47.93,0,0,0,80,64v8a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V64a47.93,47.93,0,0,0-2.75-16H200Z" fill="#ff87d5"/></svg> SIMULADOS</a>
+	</nav>
+</body>
+</html>
